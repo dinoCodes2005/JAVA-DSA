@@ -7,7 +7,7 @@ public class Questions
     // TODO
     void deleteDups(SinglyLinkedList ll)              //takes the object linkedList as parameter
     {             
-        HashSet<Integer> hs=new HashSet();      //creating hashSet -- because it does not store duplicate elements
+        HashSet<Integer> hs=new HashSet<Integer>();      //creating hashSet -- because it does not store duplicate elements
         Node current =ll.head;
         Node prev=null;                         //previous to null
         while(current!=null)
